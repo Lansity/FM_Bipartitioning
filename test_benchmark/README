@@ -1,0 +1,3 @@
+test design
+eda/fm_example/test/test_circuit : sample benchmark with less than 50 nodes and 20nets
+ibm01: ISPD98 benchmark suite with more than 12000 nodes and 11000 nets respectively
