@@ -1,5 +1,4 @@
 # FM_Bipartitioning
-FMSH
 This pj has mainly two edition
 fisrt edition is to debug with many notes
 
@@ -24,4 +23,4 @@ init_part: should be 0 or 1, 0: initial by the input order, 1: initial randomly
 
 eg: ./tmp.exe ibm01.are ibm01.net 0.45 10 1.2 0
 
-#testfm.cpp is the original edition with many notes
+### testfm.cpp is the original edition with many notes
