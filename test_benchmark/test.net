@@ -1,0 +1,40 @@
+p1 s 1
+g1 l
+g2 l
+g4 l
+p2 s 1
+g4 l
+p3 s 1
+g5 l
+g2 s 1
+g3 l
+g5 l
+p4 s 1
+g6 l
+p5 s 1
+g9 l
+g10 l
+p6 s 1
+g1 l
+g4 l
+g5 l
+p7 s 1
+g4 l
+g5 l
+g6 l
+g4 s 1
+g9 l
+g5 s 1
+g8 l
+g6 s 1
+g7 l
+g7 s 1
+g10 l
+g11 l
+g8 s 1
+g9 l
+g10 l
+g9 s 1
+g8 l
+g11 s 1
+p8 l

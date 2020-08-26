@@ -1,0 +1,63 @@
+p1 s 1
+g1 l
+g3 l
+g1 s 1
+p2 l
+p2 s 1
+g2 l
+g2 s 1
+g3 l
+g4 l
+g5 l
+g3 s 1
+g5 l
+g6 l
+g4 s 1
+g19 l
+g20 l
+g21 l
+g6 s 1
+g9 l
+g10 l
+g11 l
+g10 s 1
+p3 l
+p3 s 1
+g12 l
+g9 s 1
+g8 l
+g11 l
+g12 l
+g8 s 1
+g7 l
+g9 l
+g7 s 1
+p4 l
+p5 s 1
+g12 l
+g13 l
+p6 s 1
+g12 l
+g14 l
+g12 s 1
+g13 l
+g14 l
+g13 s 1
+g14 l
+g15 l
+g16 l
+g15 s 1
+g16 l
+g17 l
+g18 l
+p7 l
+g18 s 1
+g17 l
+g19 l
+g16 s 1
+g20 l
+g17 s 1
+g18 l
+g19 l
+g21 s 1
+g15 l
