@@ -23,3 +23,5 @@ hl: hill_climping ability, can hardly influence the result, suggest 1.2
 init_part: should be 0 or 1, 0: initial by the input order, 1: initial randomly
 
 eg: ./tmp.exe ibm01.are ibm01.net 0.45 10 1.2 0
+
+#testfm.cpp is the original edition with many notes
