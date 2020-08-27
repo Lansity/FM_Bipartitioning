@@ -1,3 +1,10 @@
+# Update
+new code is upload in new file
+
+update the region-grow algorithm initializer and delete the hill-climp argv
+
+### using RG initializer the cutsize can be decrease to ~400
+
 # FM_Bipartitioning
 This pj has mainly two edition
 fisrt edition is to debug with many notes
@@ -8,7 +15,7 @@ how to use the second to partition a graph
 
 1: g++ code.cpp -o code.exe
 
-2: ./code.exe cellfile netfile ubf pass_num hl init_part
+2: ./code.exe cellfile netfile ubf pass_num init_part
 
 #### input argv notes:
 cellfile & netfile is the input file of cells(nodes) and nets
@@ -17,10 +24,14 @@ ubf: unbalance factor, balance constraint should be 0~0.5
 
 pass_num: number of pass, suggest num: 5~15
 
-hl: hill_climping ability, can hardly influence the result, suggest 1.2
+init_part: should be 0, 1 or 2
 
-init_part: should be 0 or 1, 0: initial by the input order, 1: initial randomly
+  0: initial randomly
+  
+  1: initial by the input order
+  
+  2: initial with the region-grow algorithm
 
-eg: ./tmp.exe ibm01.are ibm01.net 0.45 10 1.2 0
+eg: ./tmp.exe ibm01.are ibm01.net 0.45 10 2
 
 ### testfm.cpp is the original edition with many notes
