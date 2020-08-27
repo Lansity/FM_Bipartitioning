@@ -1,0 +1,18 @@
+update initial function and delete some useless argv
+
+update the Region-grow initial algorithm
+delete the hill-climp argv as it doesn't has any influence on partitioning
+
+the Command line change
+as I delete the argv hill-climp, so:
+
+./tmp.exe cellfile netfile ubf pass_num init_
+
+init_ now has three mod:
+  0: random initial partition
+  1: initial partition by the input order
+  2: region grow algorithm 
+
+eg: ./a.out ibm01.are ibm01.net 0.45 5 2
+
+※ Now the FM will achieve saturated in 5 pass
